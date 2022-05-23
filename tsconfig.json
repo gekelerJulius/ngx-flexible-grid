@@ -11,6 +11,12 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "ngx-flexible-grid": [
+        "dist/ngx-flexible-grid/ngx-flexible-grid",
+        "dist/ngx-flexible-grid"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,

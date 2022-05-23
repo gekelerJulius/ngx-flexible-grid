@@ -1,0 +1,17 @@
+.ngxFlexibleGridParent {
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  justify-content: start;
+  gap: 10px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+:host::ng-deep .ngxFlexibleGridItem {
+  resize: both;
+  overflow: auto;
+  opacity: 0.5;
+}
